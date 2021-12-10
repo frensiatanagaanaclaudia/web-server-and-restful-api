@@ -1,0 +1,33 @@
+1.Apa perbedaan antara static web server dan dynamic web server?
+Jawaban:
+Perbedaannya adalah Web static kontennya tidak berubah-ubah atau statis juga tidak ada processing data dalam web server sedangkan jika dinamis kontennya dapat berubah-ubah
+Selain itu web static dibangun dengan bahasa pemograman tanpa server (HTML,CSS,JS) sedangkan jika dinamis menggunakan bahasa pemograman server side (PHP,Ruby,Python,Java). 
+2.Jelaskan arsitektur static site dan dynamic site!
+Jawaban:
+Arsitektur static site -> Disisi server-side ada file yang menyambung dengan web server (memiliki pre-created seperti HTML,CSS,JS) lalu web server akan melakukan response ke browser dan browser akan memberikan request sesuai permintaan
+Arsitektur dynamic site ->Disisi server-side ada file yang dimiliki oleh web server sama seperti pada static yaitu akan melakukan response ke browser dan browser akan menampilkan data ke web server namun data disini berasal dari database(data) dan juga melalui web application sebelum akhirnya ditampilkan.
+3.Apa saja yang dapat kita buat pada sisi server?
+Jawaban:
+Pada sisi server dapat melakukan pemrosesan data dan juga melakukan CRUD (Create,read,update,delete) dimana dapat menyajikan data ke sisi client sesuai dengan apa yang dibutuhkan.
+4.Mohon jelaskan apa itu RESTful?
+Jawaban:
+RESTful API / REST API merupakan implementasi dari API (Application Programming Interface). REST (Representional State Transfer) adalah suatu arsitektur metode komunikasi yang menggunakan protokol HTTP untuk pertukaran data dan metode ini sering diterapkan dalam pengembangan aplikasi. Dimana tujuannya adalah untuk menjadikan sistem yang memiliki performa yang baik, cepat dan mudah untuk di kembangkan (scale) terutama dalam pertukaran dan komunikasi data.
+5.Apa saja jenis HTTP verbs yang ada (jelaskan fungsinya masing-masing)
+Jawaban:
+HTTP Verbs
+Setiap request yang dilakukan terdapat metode yang dipakai agar server mengerti apa yang sedang di request client
+
+GET
+GET adalah metode HTTP Request yang paling simpel, metode ini digunakan untuk membaca atau mendapatkan data dari sumber.
+POST
+POST adalah metode HTTP Request yang digunakan untuk membuat data baru dengan menyisipkan data dalam body saat request dilakukan.
+PUT
+PUT adalah metode HTTP Request yang biasanya digunakan untuk melakukan update data resource.
+DELETE
+DELETE adalah metode HTTP Request yang digunakan untuk menghapus suatu data pada resource.
+6.Apa fungsi dari Response Codes?
+Jawaban:
+Sebelum mengetahui fungsi,definisi dari Responce codes adalah HTTP response code adalah kode standarisasi dalam menginformasikan hasil request kepada client. Secara umum terdapat 3 kelompok yang biasa dijumpai pada RESTful API yaitu :
+2XX : adalah response code yang menampilkan bahwa request berhasil.
+4XX : adalah response code yang menampilkan bahwa request mengalami kesalahan pada sisi client.
+5XX : adalah response code yang menampilkan bahwa request mengalami kesalahan pada sisi server.
